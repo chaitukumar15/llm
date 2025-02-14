@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
     fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer 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",
+          "Authorization": "Bearer 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",
           "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
           "X-Title": "<YOUR_SITE_NAME>", // Optional. Site title for rankings on openrouter.ai.
           "Content-Type": "application/json"
